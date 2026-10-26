@@ -14,9 +14,9 @@ var CONFIG = {
           { name: "email", url: "https://api.web3forms.com/submit", format: "form",
             extra: { access_key: "PASTE-KEY-HERE" } }, */
 
-    /* 2) Any webhook that accepts JSON. Works with Make.com, n8n, a Google
+    /* 2) Any webhook that accepts JSON. Works with n8n, a Google
           Apps Script web app, a Cloudflare Worker, or a Zapier Catch Hook.
-          { name: "automation", url: "https://hook.us1.make.com/xxxxxxxx", format: "json" }, */
+          { name: "automation", url: "https://example.com/your-webhook", format: "json" }, */
   ],
   // Shown when a form is submitted but no destination is set up yet.
   notConnectedMessage: "This form isn't connected yet, so nothing was sent. Please check back soon."
